@@ -1,0 +1,25 @@
+{
+  "name": "@desco/birth-range-by-age",
+  "version": "1.0.0",
+  "description": "Given an age, it calculates the range of dates that a person may have been born",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "age",
+    "birth",
+    "range"
+  ],
+  "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descodifica/birth-range-by-age.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "age-calculator": "^1.0.0",
+    "moment": "^2.27.0"
+  }
+}
