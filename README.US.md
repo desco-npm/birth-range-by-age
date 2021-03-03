@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,61 +9,61 @@
     <td><img src="https://i.ibb.co/6ryTrMq/birth-range-by-age.png"></td>
     <td>  
       <h1>@desco/birth-range-by-age</h1>
-      Pacote NPM que permite que, dada uma idade, obter uma faixa de datas nas quais é possível o nascimento / a criação.
+      NPM package that allows, given an age, to obtain a range of dates on which birth / creation is possible.
       <br /><br />
       <div align="center">
         <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
         <img alt="Versão 1.0.1" src="https://img.shields.io/static/v1?label=Versão&message=1.0.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Tecnologias"></a>
+## 📋 Table of Contents
+
+* [🛠️ Technology](#Technology)
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+<a name="Technology"></a>
 
 
-## 🛠️ Tecnologias
+## 🛠️ Technology
 
-As seguintes tecnologias são utilizadas:
+The following technologies are used:
 
 * [NodeJS](https://nodejs.org/en/);
 * [Moment](https://www.npmjs.com/package/moment);
 
 ---
 
-<a name="Instalação"></a>
+<a name="Installation"></a>
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
 ```
 npm install --save @desco/birth-range-by-age
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-### 📦 Importação
+### 📦 Import
 
 #### Node
 
@@ -75,59 +75,59 @@ npm install --save @desco/birth-range-by-age
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-### 📚 Como Usar
+### 📚 How to use
 
-#### Uso simples
+#### Simple Use
 
-Basta chamar a função passando a idade desejada:
+Just call the function passing the desired age:
 
-**Código:** 
+**Code:** 
 ```
 birthRangeByAge(34)
 ```
 
-**Resultado:** 
+**Result:** 
 ```
 [ '1985-08-06', '1986-08-06', ]
 ```
 
-O valor retornado é um array contendo, respectivamente, a menor e maior data.
+The returned value is an array containing, respectively, the smallest and largest data.
 
-#### Formatação
+#### Formatting
 
-É possível formatar a data retornada, veja:
+You can format the date returned, see:
 
-**Código:** 
+**Code:** 
 ```
 birthRangeByAge(34, { format: 'DD/MM/YYYY', })
 ```
 
-**Resultado:** 
+**Result:** 
 ```
 [ '06/08/1985', '06/08/1986', ]
 ```
 
-Note que o **birthRangeByAge** utiliza o **moment** para a formatação, sendo assim [consulte a documentação oficial de formatação do **moment**](https://momentjs.com/docs/#/displaying/) para saber todas as possíbilidades.
+Note that **birthRangeByAge** uses **moment** for formatting, so [see official **moment** formatting documentation](https://momentjs.com/docs/#/displaying/) to find out all the possibilities.
 
-#### Aspas
+#### Quotation Marks
 
-As vezes podemos querer que as datas venham entre aspas (para consulta no banco de dados, por exemplo), e **birthRangeByAge** faz isso facilmente, veja:
+Sometimes we may want dates to come in quotation marks (for consultation in the database, for example), and ** birthRangeByAge ** does this easily, see:
 
-**Código:** 
+**Code:** 
 ```
 birthRangeByAge(34, { quotes: true, })
 ```
 
-**Resultado:** 
+**Result:** 
 ```
 [ '"1985-08-06"', '"1986-08-06"', ]
 ```
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>

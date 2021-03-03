@@ -1,6 +1,6 @@
 {
   "name": "@desco/birth-range-by-age",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given an age, it calculates the range of dates that a person may have been born",
   "main": "index.js",
   "private": false,
