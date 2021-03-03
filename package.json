@@ -15,7 +15,7 @@
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descodifica/birth-range-by-age.git"
+    "url": "git+https://github.com/desco-npm/birth-range-by-age.git"
   },
   "license": "ISC",
   "dependencies": {
