@@ -63,13 +63,13 @@ npm install --save @desco/birth-range-by-age
 
 <a name="Import"></a>
 
-### 📦 Import
+## 📦 Import
 
-#### Node
+### Node
 
 `const birthRangeByAge = require('@desco/birth-range-by-age')`
 
-#### Browse
+### Browse
 
 `import birthRangeByAge from '@desco/birth-range-by-age`
 
@@ -77,9 +77,9 @@ npm install --save @desco/birth-range-by-age
 
 <a name="How-To-Use"></a>
 
-### 📚 How to use
+## 📚 How to use
 
-#### Simple Use
+### Simple Use
 
 Just call the function passing the desired age:
 
@@ -95,7 +95,7 @@ birthRangeByAge(34)
 
 The returned value is an array containing, respectively, the smallest and largest data.
 
-#### Formatting
+### Formatting
 
 You can format the date returned, see:
 
@@ -111,7 +111,7 @@ birthRangeByAge(34, { format: 'DD/MM/YYYY', })
 
 Note that **birthRangeByAge** uses **moment** for formatting, so [see official **moment** formatting documentation](https://momentjs.com/docs/#/displaying/) to find out all the possibilities.
 
-#### Quotation Marks
+### Quotation Marks
 
 Sometimes we may want dates to come in quotation marks (for consultation in the database, for example), and ** birthRangeByAge ** does this easily, see:
 

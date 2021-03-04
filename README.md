@@ -65,11 +65,11 @@ npm install --save @desco/birth-range-by-age
 
 ## 📦 Importação
 
-#### Node
+### Node
 
 `const birthRangeByAge = require('@desco/birth-range-by-age')`
 
-#### Browse
+### Browse
 
 `import birthRangeByAge from '@desco/birth-range-by-age`
 
@@ -79,7 +79,7 @@ npm install --save @desco/birth-range-by-age
 
 ## 📚 Como Usar
 
-#### Uso simples
+### Uso simples
 
 Basta chamar a função passando a idade desejada:
 
@@ -95,7 +95,7 @@ birthRangeByAge(34)
 
 O valor retornado é um array contendo, respectivamente, a menor e maior data.
 
-#### Formatação
+### Formatação
 
 É possível formatar a data retornada, veja:
 
@@ -111,7 +111,7 @@ birthRangeByAge(34, { format: 'DD/MM/YYYY', })
 
 Note que o **birthRangeByAge** utiliza o **moment** para a formatação, sendo assim [consulte a documentação oficial de formatação do **moment**](https://momentjs.com/docs/#/displaying/) para saber todas as possíbilidades.
 
-#### Aspas
+### Aspas
 
 As vezes podemos querer que as datas venham entre aspas (para consulta no banco de dados, por exemplo), e **birthRangeByAge** faz isso facilmente, veja:
 
