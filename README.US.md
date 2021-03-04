@@ -12,8 +12,8 @@
       NPM package that allows, given an age, to obtain a range of dates on which birth / creation is possible.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.1" src="https://img.shields.io/static/v1?label=Versão&message=1.0.1&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.0.1" src="https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Ready to use! 🚀
