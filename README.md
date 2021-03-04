@@ -63,7 +63,7 @@ npm install --save @desco/birth-range-by-age
 
 <a name="Importação"></a>
 
-### 📦 Importação
+## 📦 Importação
 
 #### Node
 
@@ -77,7 +77,7 @@ npm install --save @desco/birth-range-by-age
 
 <a name="Como-Usar"></a>
 
-### 📚 Como Usar
+## 📚 Como Usar
 
 #### Uso simples
 
