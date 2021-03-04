@@ -13,7 +13,7 @@
       <br /><br />
       <div align="center">
         <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.1" src="https://img.shields.io/static/v1?label=Versão&message=1.0.1&color=blue&style=for-the-badge">
+        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1?label=Versão&message=1.0.2&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -53,7 +53,7 @@ As seguintes tecnologias são utilizadas:
 
 ## ⚙️ Instalação
 
-```
+```bash
 npm install --save @desco/birth-range-by-age
 ```
 
@@ -84,7 +84,7 @@ npm install --save @desco/birth-range-by-age
 Basta chamar a função passando a idade desejada:
 
 **Código:** 
-```
+```js
 birthRangeByAge(34)
 ```
 
@@ -100,7 +100,7 @@ O valor retornado é um array contendo, respectivamente, a menor e maior data.
 É possível formatar a data retornada, veja:
 
 **Código:** 
-```
+```js
 birthRangeByAge(34, { format: 'DD/MM/YYYY', })
 ```
 
@@ -116,7 +116,7 @@ Note que o **birthRangeByAge** utiliza o **moment** para a formatação, sendo a
 As vezes podemos querer que as datas venham entre aspas (para consulta no banco de dados, por exemplo), e **birthRangeByAge** faz isso facilmente, veja:
 
 **Código:** 
-```
+```js
 birthRangeByAge(34, { quotes: true, })
 ```
 
