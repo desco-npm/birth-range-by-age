@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,22 +30,21 @@
 
 ## 📋 Table of Contents
 
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
 <a name="Technology"></a>
 
-
 ## 🛠️ Technology
 
 The following technologies are used:
 
-* [NodeJS](https://nodejs.org/en/);
-* [Moment](https://www.npmjs.com/package/moment);
+- [NodeJS](https://nodejs.org/en/);
+- [Moment](https://www.npmjs.com/package/moment);
 
 ---
 
@@ -83,12 +82,14 @@ npm install --save @desco/birth-range-by-age
 
 Just call the function passing the desired age:
 
-**Code:** 
+**Code:**
+
 ```js
-birthRangeByAge(34)
+birthRangeByAge(34);
 ```
 
-**Result:** 
+**Result:**
+
 ```
 [ '1985-08-06', '1986-08-06', ]
 ```
@@ -99,12 +100,14 @@ The returned value is an array containing, respectively, the smallest and larges
 
 You can format the date returned, see:
 
-**Code:** 
+**Code:**
+
 ```js
-birthRangeByAge(34, { format: 'DD/MM/YYYY', })
+birthRangeByAge(34, { format: "DD/MM/YYYY" });
 ```
 
-**Result:** 
+**Result:**
+
 ```
 [ '06/08/1985', '06/08/1986', ]
 ```
@@ -115,12 +118,14 @@ Note that **birthRangeByAge** uses **moment** for formatting, so [see official *
 
 Sometimes we may want dates to come in quotation marks (for consultation in the database, for example), and ** birthRangeByAge ** does this easily, see:
 
-**Code:** 
+**Code:**
+
 ```js
-birthRangeByAge(34, { quotes: true, })
+birthRangeByAge(34, { quotes: true });
 ```
 
-**Result:** 
+**Result:**
+
 ```
 [ '"1985-08-06"', '"1986-08-06"', ]
 ```
@@ -146,10 +151,10 @@ birthRangeByAge(34, { quotes: true, })
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

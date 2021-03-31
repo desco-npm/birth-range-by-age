@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote NPM que permite que, dada uma idade, obter uma faixa de datas nas quais é possível o nascimento / a criação.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1?label=Versão&message=1.0.2&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1label=Vers%C3%A3o%C3%A7a&message=1.0.2&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -30,22 +30,21 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
 <a name="Tecnologias"></a>
 
-
 ## 🛠️ Tecnologias
 
 As seguintes tecnologias são utilizadas:
 
-* [NodeJS](https://nodejs.org/en/);
-* [Moment](https://www.npmjs.com/package/moment);
+- [NodeJS](https://nodejs.org/en/);
+- [Moment](https://www.npmjs.com/package/moment);
 
 ---
 
@@ -83,12 +82,14 @@ npm install --save @desco/birth-range-by-age
 
 Basta chamar a função passando a idade desejada:
 
-**Código:** 
+**Código:**
+
 ```js
-birthRangeByAge(34)
+birthRangeByAge(34);
 ```
 
-**Resultado:** 
+**Resultado:**
+
 ```
 [ '1985-08-06', '1986-08-06', ]
 ```
@@ -99,12 +100,14 @@ O valor retornado é um array contendo, respectivamente, a menor e maior data.
 
 É possível formatar a data retornada, veja:
 
-**Código:** 
+**Código:**
+
 ```js
-birthRangeByAge(34, { format: 'DD/MM/YYYY', })
+birthRangeByAge(34, { format: "DD/MM/YYYY" });
 ```
 
-**Resultado:** 
+**Resultado:**
+
 ```
 [ '06/08/1985', '06/08/1986', ]
 ```
@@ -115,12 +118,14 @@ Note que o **birthRangeByAge** utiliza o **moment** para a formatação, sendo a
 
 As vezes podemos querer que as datas venham entre aspas (para consulta no banco de dados, por exemplo), e **birthRangeByAge** faz isso facilmente, veja:
 
-**Código:** 
+**Código:**
+
 ```js
-birthRangeByAge(34, { quotes: true, })
+birthRangeByAge(34, { quotes: true });
 ```
 
-**Resultado:** 
+**Resultado:**
+
 ```
 [ '"1985-08-06"', '"1986-08-06"', ]
 ```
@@ -146,10 +151,10 @@ birthRangeByAge(34, { quotes: true, })
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
